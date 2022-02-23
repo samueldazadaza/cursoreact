@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 function Hola() {
     return (
-        <div>
-            <h2>hellooo</h2>
+        <Fragment>
+            <h2>hellooo::: {3*4}</h2>
+            <p>hellooo::: {3*8}</p>
             
-        </div>
+        </Fragment>
     )
 }
 
