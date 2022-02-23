@@ -12,7 +12,7 @@ const Temperatura = () => {
     }
 
   return (
-    <div>
+    <div className="container">
         <h2>La temperatura es: {temperatura}</h2>
         <p>
             {
@@ -21,8 +21,8 @@ const Temperatura = () => {
                 : 'Hace fresquito'
             }
         </p>
-        <button onClick={Subir}>Aumentar temperatura</button>
-        <button onClick={Bajar}>Reducir temperatura</button>
+        <button className="btn btn-success btn-block" onClick={Subir}>Aumentar temperatura</button>
+        <button className="btn btn-danger btn-block" onClick={Bajar}>Reducir temperatura</button>
     </div>
   )
 }

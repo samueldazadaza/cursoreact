@@ -4,8 +4,8 @@ import Temperatura from './components/Temperatura'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Titulo del app:::::::</h1>
+    <div className="App mt-5">
+      <h4>Titulo de nuestro primer proyecto:::</h4>
       <Temperatura></Temperatura>
     </div>
   );
