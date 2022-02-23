@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Listado from './components/Listado'
+import Temperatura from './components/Temperatura'
 
 function App() {
   return (
     <div className="App">
-      <h1>titleee</h1>
-      <Listado></Listado>
+      <h1>Titulo del app:::::::</h1>
+      <Temperatura></Temperatura>
     </div>
   );
 }
