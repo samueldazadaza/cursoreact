@@ -9,11 +9,11 @@ const Formulario = () => {
         event.preventDefault()
         console.log("pulsado boton")
         if(!nombre.trim()){
-            console.log("nombre vacio")
+            console.log("El nombre esta vacio")
             return
         }
         if(!edad.trim()){
-            console.log("edaddddddddd vacio")
+            console.log("edad vacio... Falta este campo¡¡¡")
             return
         }
     }
